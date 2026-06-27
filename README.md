@@ -24,9 +24,11 @@ Build a sales forecasting model that predicts future demand and presents results
 
 | Model | MAE | RMSE | R2 Score |
 |---|---|---|---|
-| Linear Regression | - | - | - |
-| Random Forest | - | - | - |
-| Gradient Boosting | - | - | - |
+| Linear Regression | $273.53 | $751.60 | 0.0437 |
+| Random Forest | $206.57 | $687.90 | 0.1989 |
+| Gradient Boosting | $216.10 | $701.16 | 0.1677 |
+
+Best Model: Random Forest with lowest MAE of $206.57
 
 ## Visualizations
 - Graph 1: Monthly sales trend (2014 to 2017)
@@ -39,10 +41,10 @@ Build a sales forecasting model that predicts future demand and presents results
 - Graph 8: Top sub-categories and sales vs profit
 
 ## Business Insights
-- Q4 (October to December) consistently shows the highest sales
-- Technology category drives the highest revenue
-- West region leads in total sales
-- High discount rates are reducing profit margins
+- Q4 (October to December) consistently shows the highest sales - increase stock before this period
+- Technology category drives the highest revenue - prioritize supplier relationships
+- West region leads in total sales - consider expanding marketing budget here
+- High discount rates are reducing profit margins - review discount strategy
 
 ## How to Run
 
@@ -62,3 +64,6 @@ Note: Update the file path in Cell 1 to point to your local dataset location.
 - numpy
 - matplotlib
 - seaborn
+
+## Author
+Gutta Harshill
